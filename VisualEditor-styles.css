@@ -1,0 +1,88 @@
+@media screen {
+	@media ( min-width: 851px ) {
+		.ve-init-mw-desktopArticleTarget .CodeMirror {
+			padding: 0 2em;
+		}
+	}
+
+	@media ( max-width: 850px ) {
+		.ve-init-mw-desktopArticleTarget .CodeMirror {
+			padding: 0;
+		}
+	}
+
+	@media ( min-width: 851px ) {
+		.ve-init-mw-desktopArticleTarget-toolbar {
+			margin: -1.125em -2em 0;
+		}
+
+		.ve-ui-toolbar-floating > .oo-ui-toolbar-bar {
+			top: 3.475em;
+		}
+
+		.ve-init-mw-desktopArticleTarget .ve-init-mw-target-surface .ve-ce-documentNode,
+		.ve-init-mw-desktopArticleTarget .ve-init-mw-target-surface .ve-ui-surface-placeholder {
+			padding-right: 2em;
+			padding-left: 2em;
+		}
+	}
+
+	@media ( min-width: 851px ) and ( max-width: 1099px ) {
+		.ve-init-mw-desktopArticleTarget-toolbar {
+			margin-top: -0.285em;
+		}
+	}
+
+	@media ( max-width: 850px ) {
+		.ve-init-mw-desktopArticleTarget-toolbar {
+			margin: -0.125em -0.45em 0;
+		}
+
+		.ve-ui-toolbar-floating > .oo-ui-toolbar-bar {
+			top: 0;
+		}
+	}
+
+	.client-js.ve-activated .ve-init-mw-desktopArticleTarget-uneditableContent {
+		opacity: 1;
+		pointer-events: auto;
+		-webkit-user-select: auto;
+		-moz-user-select: auto;
+		-ms-user-select: auto;
+		user-select: auto;
+	}
+
+	.ve-activated .ve-ui-mwNoticesPopupTool-item .warningbox {
+		padding: 0.5em 1em;
+		border: 1px solid;
+		margin-bottom: 1em;
+		background: none;
+	}
+
+	.ve-ui-toolbar-saveButton span {
+		color: #fff;
+	}
+
+	.ve-ui-mwNoticesPopupTool-item .warningbox {
+		padding: 0.5em 1em;
+		border: 1px solid;
+		margin-bottom: 1em;
+		background: none;
+	}
+
+	.ve-active .oo-ui-barToolGroup-tools.oo-ui-toolGroup-disabled-tools .oo-ui-tool.oo-ui-flaggedElement-primary > .oo-ui-tool-link {
+		background-color: #808080;
+	}
+
+	.ve-init-mw-tempWikitextEditorWidget {
+		background: transparent;
+	}
+
+	.ve-activated .ve-ui-mwSaveDialog-savePanel .oo-ui-fieldLayout-header {
+		color: #000;
+	}
+
+	.ve-ui-toolbar:not( .ve-ui-toolbar-floating ) .oo-ui-toolbar-bar {
+		position: initial;
+	}
+}
